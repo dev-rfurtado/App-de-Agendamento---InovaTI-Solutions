@@ -4,11 +4,11 @@
     "slug": "Inovati_Solutions",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/InovatiIcon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/InovatiIcon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/InovatiIcon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rfurtado.jobs.Inovati_Solutions"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/InovatiIcon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6400c08f-9714-4d23-84d8-09575dfdbbe8"
+      }
     }
   }
 }
